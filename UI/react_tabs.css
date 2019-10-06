@@ -1,0 +1,194 @@
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  /* background: #D9E21D; */
+  background: var(--bg2);
+  /* color: #D9E21D; */
+  height: 38px;
+}
+
+:root{
+    --bg1:#C4A9F3;
+    --bg2:#7E43E5;
+    --bg3:#4E17AC;
+    --bg4:#250B51;
+    --bg5:#16092D;
+}
+.react-tabs__tab {
+  display: inline-block;
+  /* border: 1px solid transparent; */
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 0px 12px 0px;
+  cursor: pointer;
+  width: 50%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.react-tabs__tab--selected {
+  background: var(--bg3);
+  /* color: #1DE226; */
+  /* border-radius: 5px 5px 0 0; */
+}
+
+.react-tabs__tab--disabled {
+  color: Gray;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+  margin: 0 10px;
+  width: 93%;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+#root {
+  font-family: Montserrat;
+  color: black;
+  background: rgb(238, 238, 238);
+}
+
+.class1{
+  width: 100%;
+  /* display: inline-block; */
+  background-color:#88CC88;
+}
+
+.report_cards{
+  border: var(--bg1) solid 1px;
+  color: rgb(101, 29, 226);
+  height: 40px;
+  
+}
+
+.button{
+  cursor: pointer;
+  margin: 14px 0 0 200px;
+  padding: 7px;
+  background: var(--bg2);
+  border: none;
+  color: #fff;
+}
+.button:hover{
+  background: var(--bg3);
+}
+
+.button:active{
+  background: var(--bg2);
+  transform: translateY(1px);
+}
+
+#dash_add_button{
+  margin-left: 176px;
+}
+
+#help_btn{
+  position: relative;
+  top: -31px;
+  left: 270px;
+  height: 29px;
+  border: none;
+  background: var(--bg1);
+  color: var(--bg5);
+  width: 30px;
+  font-weight: bold;
+  border-radius: 36px;
+}
+#help_btn:hover{
+  margin: 1px 0 0 0;
+  cursor: pointer;
+}
+
+.popup{
+  position: relative;
+  left: 0;
+  right: 25%;
+  top: -44px;
+  margin: 19px;
+  background: white;
+  height: 250px;
+  box-shadow: 1px 2px 4px var(--bg3);
+  border-radius: 5px;
+  z-index: 100;
+
+}
+
+.helpForm{
+  position: relative;
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding: 19px 0 0 0;
+}
+
+.popup_cancel{
+  border: 1px solid var(--bg3);
+  background: #f4f4f4;
+  color: var(--bg3);
+  width: 62px;
+  height: 28px;
+  margin: 40px 0 0 76px;
+}
+
+.popup_cancel:hover{
+  background: var(--bg3);
+  color: white;
+  cursor: pointer;
+}
+
+.popup_submit{
+  border: 1px solid var(--bg3);
+  background: var(--bg3);
+  color: white;
+  width: 62px;
+  height: 28px;
+  margin-left: 15px;
+}
+
+.popup_submit:hover{
+  cursor: pointer;
+}
+
+.help_textarea{
+  height: 64px;
+  width: 212px;
+  border: 2px solid var(--bg1);
+  background-color: #f4f4f4;
+  resize: none;
+}
+#fileupload{
+  height: 28px;
+  margin: 42px 0 0 21px;
+}
+.helpForm label{
+  top: 105px;
+  left: 22px;
+  position: absolute;
+}
